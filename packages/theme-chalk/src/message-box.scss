@@ -38,7 +38,7 @@
   @include e(header) {
     position: relative;
     padding: $--msgbox-padding-primary;
-    padding-bottom: 10px;
+    padding-bottom: 0;
   }
 
   @include e(title) {
@@ -74,7 +74,7 @@
 
   @include e(content) {
     position: relative;
-    padding: 10px $--msgbox-padding-primary;
+    padding: 11px $--msgbox-padding-primary;
     color: $--msgbox-content-color;
     font-size: $--msgbox-content-font-size;
   }
